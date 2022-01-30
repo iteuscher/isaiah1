@@ -13,19 +13,46 @@
   </head>
   <body>
 
-    <header class="header">
-      <a href="index.html" class="logo">Isaiah.io</a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-        <li><a href="/study.html">Study</a></li>
-        <li><a href="/map.html">Map</a></li>
-        <li><a href="/topics.html">Topics</a></li>
-        <li><a href="/about.html">About</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">Isaiah.io</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="study.html">Study</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="map.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="topics.html">Topics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
       </ul>
-    </header>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+      </form>
+    </div>
+    </nav>
 
 
+
+
+
+    <footer class="footer">
+    <div class="container">
+      <a href="https://github.com/iteuscher/isaiah1"><h5 class="text-muted">Link to Github Repo</h5></a> 
+    </div>
+  </footer>
 
 
     <!-- Bootstrap JS -->
